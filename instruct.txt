@@ -1,0 +1,77 @@
+Video folder: data/aist++/VIDEO_DIR
+motion_file folder: data/aist++/motions-smpl
+
+Example video:
+    data/aist++/VIDEO_DIR/gBR_sBM_c01_d04_mBR0_ch06.mp4
+Corresponding motion_file:
+    data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR0_ch06.npy
+Command:
+    CUDA_VISIBLE_DEVICES=1 PYTHON_PATH protomotions/eval_agent.py \
+    +robot=smpl \
+    +simulator=isaaclab \
+    +checkpoint=data/pretrained_models/Farm/score_based.ckpt \
+    +headless=false \
+    +num_envs=1 \
+    +terrain=flat \
+    +motion_file=data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR0_ch06.npy \
+    +speed_evaluation=1.0
+
+Example video:
+    data/aist++/VIDEO_DIR/gBR_sBM_c01_d04_mBR1_ch03.mp4
+Corresponding motion_file:
+    data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR1_ch03.npy
+Command:
+    CUDA_VISIBLE_DEVICES=1 PYTHON_PATH protomotions/eval_agent.py \
+    +robot=smpl \
+    +simulator=isaaclab \
+    +checkpoint=data/pretrained_models/Farm/score_based.ckpt \
+    +headless=false \
+    +num_envs=1 \
+    +terrain=flat \
+    +motion_file=data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR1_ch03.npy \
+    +speed_evaluation=1.0
+
+Example video:
+    data/aist++/VIDEO_DIR/gBR_sBM_c01_d04_mBR2_ch07.mp4
+Corresponding motion_file:
+    data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR2_ch07.npy
+Command:
+    CUDA_VISIBLE_DEVICES=1 PYTHON_PATH protomotions/eval_agent.py \
+    +robot=smpl \
+    +simulator=isaaclab \
+    +checkpoint=data/pretrained_models/Farm/score_based.ckpt \
+    +headless=false \
+    +num_envs=1 \
+    +terrain=flat \
+    +motion_file=data/aist++/motions-smpl/gBR_sBM_cAll_d04_mBR2_ch07.npy \
+    +speed_evaluation=1.0
+
+Example video:
+    data/aist++/VIDEO_DIR/gBR_sBM_c01_d06_mBR4_ch08.mp4
+Corresponding motion_file:
+    data/aist++/motions-smpl/gBR_sBM_cAll_d06_mBR4_ch08.npy
+Command:
+    CUDA_VISIBLE_DEVICES=1 PYTHON_PATH protomotions/eval_agent.py \
+    +robot=smpl \
+    +simulator=isaaclab \
+    +checkpoint=data/pretrained_models/Farm/score_based.ckpt \
+    +headless=false \
+    +num_envs=1 \
+    +terrain=flat \
+    +motion_file=data/aist++/motions-smpl/gBR_sBM_cAll_d06_mBR4_ch08.npy \
+    +speed_evaluation=1.0
+
+Example video:
+    data/aist++/VIDEO_DIR/gJB_sBM_c01_d07_mJB0_ch09.mp4
+Corresponding motion_file:
+    data/aist++/motions-smpl/gJB_sBM_cAll_d07_mJB0_ch09.npy
+Command:
+    CUDA_VISIBLE_DEVICES=1 PYTHON_PATH protomotions/eval_agent.py \
+    +robot=smpl \
+    +simulator=isaaclab \
+    +checkpoint=data/pretrained_models/Farm/score_based.ckpt \
+    +headless=false \
+    +num_envs=1 \
+    +terrain=flat \
+    +motion_file=data/aist++/motions-smpl/gJB_sBM_cAll_d07_mJB0_ch09.npy \
+    +speed_evaluation=1.0

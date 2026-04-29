@@ -1,0 +1,23 @@
+*/babel/*.json
+.idea
+*__pycache__*
+__pycache__/
+*.pyc
+*.egg-info
+outputs/*
+rendered_images/*
+*tmp*
+results/*
+.DS_Store
+**/.DS_Store
+.codex
+.codex/
+
+# Keep only selected folders under data/ when publishing this repo.
+data/*
+!data/pretrained_models/
+!data/pretrained_models/**
+!data/scripts/
+!data/scripts/**
+data/scripts/**/__pycache__/
+data/scripts/**/*.pyc
